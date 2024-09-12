@@ -1,0 +1,24 @@
+body {
+  min-height: 2500px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-image: linear-gradient(180deg, #ffb8eb 0, #ffafe6 16.67%, #ffa7df 33.33%, #f29dd5 50%, #db93ca 66.67%, #c58bc0 83.33%, #b283b6 100%);
+  align-content: center;
+}
+
+#project {
+  background-image: linear-gradient(180deg, #ffb8eb 0, #ffafe6 16.67%, #ffa7df 33.33%, #f29dd5 50%, #db93ca 66.67%, #c58bc0 83.33%, #b283b6 100%);
+}
+#about {
+  background-color: #f3f4f5;
+}
+
+#contact {
+  background-color: #f3f4f5;
+}
+
+section {
+  padding-top: 5rem;
+}
