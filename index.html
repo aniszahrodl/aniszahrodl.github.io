@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <title>Portofolio | Anis Zahro</title>
 </head>
@@ -36,7 +37,7 @@
      <!-- jumbotron -->
     <section class="jumbotron text-center">
         <img src="anis.jpeg" alt="software house" width="200" class="rounded-circle img-thumbnail"/>
-        <h1 class="display-4">Anis Zahro Dwi Lutfiana</h1>
+        <h1 class="display-4 anisz">Anis Zahro Dwi Lutfiana</h1>
         <p class="lead">Graphic Designer | 3D Model Designer | Web Designer</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,128L24,160C48,192,96,256,144,240C192,224,240,128,288,80C336,32,384,32,432,53.3C480,75,528,117,576,117.3C624,117,672,75,720,53.3C768,32,816,32,864,37.3C912,43,960,53,1008,80C1056,107,1104,149,1152,176C1200,203,1248,213,1296,186.7C1344,160,1392,96,1416,64L1440,32L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
     </section>
@@ -50,15 +51,15 @@
                 </div>            
             </div>
             <div class="row justify-content-around fs-5 text-center">
-                <div class="col-10 mt-5">
+                <div class="col-10 mt-5" data-aos="fade-in" data-aos-duration="1000">
                     <p>Halo! saya Anis Zahro Dwi Lutfiana, biasa dipanggil Anis. 
                         Saya berusia 22 tahun dan sedang menempuh pendidikan S1 di Universitas Sebelas Maret, jurusan Pendidikan Teknik Informatika dan Komputer.
                     </p>
                 </div>
-                <div class="col-10">
+                <div class="col-10" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
                     <p>Sebagai mahasiswa S1 Pendidikan Teknik Informatika dan Komputer, saya memiliki keterampilan dalam pemrograman, desain web, desain grafis, dan desain model 3D. </p>
                 </div>
-                <div class="col-10">
+                <div class="col-10" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="600">
                     <p>Selain itu, saya cukup menguasai pengelolaan basis data serta memiliki kemampuan untuk bekerja secara tim maupun individu dalam menyelesaikan proyek berbasis teknologi informasi.</p>
                 </div>
             </div>
@@ -76,7 +77,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500">
                         <img src="project1.jpg" class="card-img-top" alt="project 1" style="width:200; height: 200;" />
                         <!-- Photo by <a href="https://unsplash.com/@timxdesign?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Timothy Exodus</a> on <a href="https://unsplash.com/photos/person-using-black-laptop-computer-P-t_ABQlPxY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
   
@@ -88,7 +89,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="400">
                         <img src="project2.png" class="card-img-top" alt="project 2" style="width:200; height: 200;"/>
                         <div class="card-body">
                             <h5 class="card-title">3D Design</h5>
@@ -98,7 +99,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="600">
                         <img src="project3.jpg" class="card-img-top" alt="project 3" style="width:200"/>
                         <!-- Photo by <a href="https://unsplash.com/@growtika?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Growtika</a> on <a href="https://unsplash.com/photos/a-computer-screen-with-a-keyboard-and-a-box-with-a-logo-YOEHA0Ou8ZY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->  
                         <div class="card-body">
@@ -161,6 +162,27 @@
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script>
+            gsap.from('.jumbotron img', {
+                duration: 1, rotateY: 360, opacity:0
+            });
+            gsap.from('.navbar', {
+                duration: 1.5, y:'-100', ease:'bounce'
+            })
+            gsap.from('.anisz', {
+                duration: 1, y:'-50', opacity:0, delay: 0.5, ease:'back'
+            })
+            gsap.from('.lead', {
+                duration: 1, y:'-50', opacity:0, delay: 1, ease:'back'
+            })
+            
+        </script>
+
         <!-- submit to google sheet -->
 
         <script>
