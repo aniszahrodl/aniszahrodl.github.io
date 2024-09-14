@@ -15,6 +15,10 @@ body {
   background-color: #f3f4f5;
 }
 
+#about p {
+  font-size: small;
+}
+
 #contact {
   background-color: #f3f4f5;
 }
